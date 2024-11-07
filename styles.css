@@ -1,0 +1,180 @@
+body {
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+.header,.obsah1 {
+    background-color:#1f2937 ;
+    padding: 0 200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo,.img {
+    max-width: 80%;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+}
+
+.obsah1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+    flex: auto;
+    flex-wrap: wrap;
+}
+
+.obsah1 img {
+    max-width: 400px;
+}
+
+.leva {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 16px;
+}
+
+.nadpis {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 16px;
+    color: #e5e7eb;
+    filter: contrast(0.5);
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: white;
+    width: 120px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.obsah2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.bloky {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.nadpis2 {
+    padding: 50px 0;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+.blok {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+}
+
+.blok img {
+    border-radius: 20px;
+    border: 4px solid #3882f6;
+}
+
+.popis {
+    padding: 10px 20px;
+    color: #e5e7eb;
+    filter: contrast(0.25);
+}
+
+.obsah3 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 400px;
+    background-color:#e5e7eb ;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.autor {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    color: #1f2937;
+    font-weight: bold;
+}
+
+.obsah4 {
+    display: flex;
+    margin: 50px 200px;
+    padding: 50px 50px;
+    background-color: #3882f6;
+    color: white;
+    justify-content: space-between;
+    border-radius: 8px;
+    flex-wrap: wrap;
+}
+
+.leva2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    align-items: baseline;
+}
+
+.nadpis3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nadpis3 .text {
+    color: white;
+}
+
+.prava2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prava2 button {
+    border: 2px solid white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1f2937 ;
+    color: white;
+    filter: contrast(0.75);
+    padding: 20px 0;
+}
